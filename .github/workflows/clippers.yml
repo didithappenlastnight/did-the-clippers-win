@@ -2,7 +2,7 @@ name: Clippers Bot (daily)
 
 on:
   schedule:
-    - cron: "00 13 * * *"  # 7:00 AM CST
+    - cron: "15 12 * * *"  # 6:15 AM CST (12:15 UTC)
   workflow_dispatch: {}
 
 jobs:
